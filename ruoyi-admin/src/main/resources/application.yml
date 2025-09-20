@@ -111,6 +111,7 @@ security:
     - /*/api-docs
     - /*/api-docs/**
     - /warm-flow-ui/config
+    - /spg/modelConfig/**
 
 # 多租户配置
 tenant:
