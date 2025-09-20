@@ -16,6 +16,10 @@
     </description>
 
     <dependencies>
+        <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+        </dependency>
         <!-- 通用工具-->
         <dependency>
             <groupId>org.dromara</groupId>
@@ -60,16 +64,17 @@
             <version>${anyline.version}</version>
         </dependency>
 
+        <!-- PostgreSQL适配器 - 根据当前数据库配置添加 -->
+        <dependency>
+            <groupId>org.anyline</groupId>
+            <artifactId>anyline-data-jdbc-postgresql</artifactId>
+            <version>${anyline.version}</version>
+        </dependency>
+
         <!-- anyline支持100+种类型数据库 添加对应的jdbc依赖与anyline对应数据库依赖包即可 -->
 <!--        <dependency>-->
 <!--            <groupId>org.anyline</groupId>-->
 <!--            <artifactId>anyline-data-jdbc-oracle</artifactId>-->
-<!--            <version>${anyline.version}</version>-->
-<!--        </dependency>-->
-
-<!--        <dependency>-->
-<!--            <groupId>org.anyline</groupId>-->
-<!--            <artifactId>anyline-data-jdbc-postgresql</artifactId>-->
 <!--            <version>${anyline.version}</version>-->
 <!--        </dependency>-->
 

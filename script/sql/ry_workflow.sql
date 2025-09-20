@@ -1,6 +1,4 @@
--- ----------------------------
--- 0、warm-flow-all.sql，地址：https://gitee.com/dromara/warm-flow/blob/master/sql/mysql/warm-flow-all.sql
--- ----------------------------
+
 CREATE TABLE `flow_definition`
 (
     `id`              bigint          NOT NULL COMMENT '主键id',
